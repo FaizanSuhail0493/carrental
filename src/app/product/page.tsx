@@ -157,9 +157,9 @@ const ProductDetail = () => {
           </div>
           <div className="sm:mt-4 md:mt-6">
             <p className="text-gray-600 sm:text-[14px] md:text-[20px] mt-2 sm:leading-7 md:leading-9">
-              NISMO has become the embodiment of Nissan's outstanding
+              NISMO has become the embodiment of Nissans outstanding
               performance, inspired by the most unforgiving proving ground, the
-              "race track".
+              race track.
             </p>
           </div>
           <div className="grid grid-cols-4 md:mt-8 sm:text-[12px] md:text-[20px] space-y-4">

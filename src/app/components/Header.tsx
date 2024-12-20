@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaSearch, FaHeart, FaBell } from "react-icons/fa";
@@ -68,10 +69,12 @@ const Header: React.FC = () => {
 
           {/* User Profile */}
           <button>
-            <img
+            <Image
               src="/car (1).png"
               alt="User"
               className="w-8 h-8 md:w-9 md:h-9 rounded-full object-cover"
+              height={44}
+              width={44}
             />
           </button>
         </div>
